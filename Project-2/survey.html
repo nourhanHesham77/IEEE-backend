@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section>
+   <h1>Employee Interests Survey Form</h1>
+   <form action="book/bookera.html" class="frm-grp">
+      <div class="form-part">
+        <label for="exinp">Enter your name :</label>
+        <input type="text" id="exinp">
+      </div>
+      
+      <div class="form-part">
+        <label for="exinp">Enter your department :</label>
+        <input type="text" id="exinp">
+      </div>
+      <div class="form-part">
+        <label for="exinp">tell us a little about your self: </label>
+        <textarea id="exinp"></textarea>
+      </div>
+      <div class="form-part">
+        <label for="exinp">Do you exercise at home? </label>
+        <input type="radio" id="yap" name="exercise" value="1">
+        <label for="yap">Yes</label>
+        <input type="radio" id="nop" name="exercise" value="0">
+        <label for="nop">No</label>
+      </div>
+
+      <div class="form-part">
+        <label for="exinp">How do you like to read about your favourite topics?</label>
+        <br><br>
+        <input type="checkbox" id="book" name="fav" value="0">
+        <label for="book">Books</label>
+
+        <input type="checkbox" id="online" name="fav" value="1">
+        <label for="online">Online resources</label>
+
+        <input type="checkbox" id="phn" name="fav" value="2">
+        <label for="phn">Phone apps</label>
+
+        <input type="checkbox" id="maga" name="fav" value="3">
+        <label for="maga">Magazines</label>
+      </div>
+
+      <div class="form-part">
+        <label for="exinp">What genre of movies do you like?</label>
+        
+        <select name="movies" class="form-control" id="exinp">
+            <option value="0" >Comedy</option>
+            <option value="1" >Action</option>
+            <option value="2" >Romance</option>
+            <option value="3" >Tragedy</option>
+      
+          </select>
+      </div>
+
+      <input type="submit" value="Submit form" name="submit">
+   </form>
+    </section>
+</body>
+</html>
